@@ -1,0 +1,77 @@
+/* Header Styles */
+header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.logo-button img {
+    height: 50px;
+    width: auto;
+}
+
+.nav-section {
+    display: flex;
+    align-items: center;
+}
+
+.mobile-menu-button {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    color: #333333;
+}
+
+.mobile-menu-button:hover {
+    color: #495e57;
+}
+
+@media (max-width: 768px) {
+    .mobile-menu-button {
+        display: block;
+    }
+    
+    .header-container {
+        justify-content: space-between;
+    }
+    
+    .nav-section .navbar {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .nav-section .navbar {
+        display: block;
+    }
+    
+    .mobile-menu-button {
+        display: none;
+    }
+}
