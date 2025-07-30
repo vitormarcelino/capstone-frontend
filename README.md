@@ -182,19 +182,3 @@ This is a portfolio project. However, suggestions and feedback are welcome:
 1. Fork the repository
 2. Create a feature branch
 3. Submit a pull request with detailed description
-
-## 📄 **License**
-
-This project is for portfolio purposes. All rights reserved.
-
-## 📧 **Contact**
-
-For questions about this portfolio project:
-- **Developer**: [Your Name]
-- **Email**: [Your Email]
-- **LinkedIn**: [Your LinkedIn Profile]
-- **Portfolio**: [Your Portfolio Website]
-
----
-
-*This project showcases modern React development skills and demonstrates the ability to create professional, responsive web applications from scratch.*
